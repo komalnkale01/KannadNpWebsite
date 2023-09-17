@@ -1,0 +1,81 @@
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #04aa1a;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.komalInfo:hover {
+  background-color: aqua;
+}
+
+
+/* Nilesh CSS Added here */
+
+/* .headSection{
+    display: inline-block;
+     border: 3px solid cadetblue; 
+    width: 1330px;
+    height: 100px;
+} */
+
+
+.heading{
+    /* background-color: burlywood;  */
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 33px;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-right: 300px;
+    padding: 20px 20px 20px 20px;    
+}
+.logo{
+    margin-left: 5px;
+    
+}
+   
+
+
